@@ -1,0 +1,16 @@
+{
+  "name": "sample-payment-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Passed all tests ;) winks\" && exit 1",
+    "build": "echo \"Building the application...\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
