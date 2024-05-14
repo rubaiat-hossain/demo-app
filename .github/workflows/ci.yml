@@ -23,6 +23,6 @@ jobs:
     - run: npm test
     - name: Build and push Docker image
       run: |
-        docker build -t rhs-demo-app:latest .
+        docker build -t devops-demo-app:latest .
         echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
         docker push ${{ secrets.DOCKERHUB_USERNAME }}/devops-demo-app:latest
