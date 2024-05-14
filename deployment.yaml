@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: demo-payment-app
-          image: rhs95/demo-payment-app
+          image: rhs95/devops-demo-app
           command: ["node"]
           args: ["app/index.js"]
           ports:
